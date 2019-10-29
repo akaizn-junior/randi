@@ -4,5 +4,41 @@
   "description": "Random Names Generator",
   "main": "randi.js",
   "author": "Simao Nziaka",
-  "license": "ISC"
+  "license": "ISC",
+  "scripts": {
+    "test": "nyc mocha *.spec.js"
+  },
+  "nyc": {
+		"check-coverage": true,
+		"per-file": false,
+		"statements": 100,
+		"branches": 100,
+		"functions": 100,
+		"lines": 100,
+		"reporter": [
+			"html",
+			"text-summary"
+		],
+		"exclude": [
+			"**/*.spec.js"
+		],
+		"extension": [
+			".spec.js"
+		],
+		"cache": true,
+		"all": false
+	},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/verdebydesign/randi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/verdebydesign/randi/issues"
+  },
+  "homepage": "https://github.com/verdebydesign/randi#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.2",
+    "nyc": "^14.1.1"
+  }
 }

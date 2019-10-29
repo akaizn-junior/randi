@@ -4,7 +4,7 @@
  * (c) 2019 Verdexdesign
  */
 
-const { randn } = require('utils');
+const randn = require('./randn');
 const { nouns, adjectives } = require('./data');
 
 /**
@@ -14,9 +14,9 @@ const { nouns, adjectives } = require('./data');
 function randi(separator = ' ') {
 	let randomAjective = adjectives[randn(0, adjectives.length)];
 	let randomNoun = nouns[randn(0, nouns.length)];
-	randomAjective = randomAjective.trim().replace(/\s/g, separator);
-	randomNoun = randomNoun.trim().replace(/\s/g, separator);
-	return randomAjective.concat(separator, randomNoun);
+	randomAjective = randomAjective.trim().replace(/\s/g, separator || ' ');
+	randomNoun = randomNoun.trim().replace(/\s/g, separator || ' ');
+	return randomAjective.concat(separator || ' ', randomNoun);
 }
 
 module.exports = randi;
