@@ -1,8 +1,8 @@
 const { describe, it } = require('mocha');
 const { expect } = require('chai');
 
-const randi = require('./randi');
-const randn = require('./randn');
+const randi = require('./src/randi');
+const randn = require('./src/randn');
 
 describe('randi tests', () => {
     const defaultSeparator = ' ';
