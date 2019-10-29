@@ -8,7 +8,7 @@ Uses a list of nouns and adjectives to create a random name.
 
 Random Names can be used as placeholder names or actual names for content.
 The data creates interesting names by simply smooshing random nouns and adjectives together.
-Any offensive or inapropriate combinations are not intentional and may be cleaned.
+Any offensive or inapropriate combinations are not intentional and may be removed.
 
 ## Shout outs
 
