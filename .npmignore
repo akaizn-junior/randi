@@ -4,3 +4,4 @@ coverage
 randi.spec.js
 .gitignore
 dev
+.npmrc
