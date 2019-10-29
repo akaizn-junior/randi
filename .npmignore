@@ -1,0 +1,6 @@
+.editorconfig
+.nyc_output
+coverage
+randi.spec.js
+.gitignore
+

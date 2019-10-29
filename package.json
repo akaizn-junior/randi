@@ -1,5 +1,5 @@
 {
-  "name": "randi",
+  "name": "@verdebydesign/randi",
   "version": "0.0.1",
   "description": "Random Names Generator",
   "main": "src/randi.js",
