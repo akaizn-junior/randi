@@ -16,6 +16,18 @@ Any offensive or inapropriate combinations are not intentional and may be remove
 
 ## Usage
 
+### Browser
+
+```js
+<script src="randi.min.js"></script>
+<script>
+    const randomName = Randi('_');
+    // ex: a_random_name
+</script>
+```
+
+### Node
+
 ```js
 const randi = require('randi');
 const randomTitle = randi('-');

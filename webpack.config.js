@@ -4,7 +4,6 @@ const pkg = require('./package.json');
 const DEV = process.env.NODE_ENV !== 'production';
 
 const settings = {
-	lib: "Randi",
 	target: 'umd',
 	name: 'randi'
 };
@@ -18,7 +17,7 @@ module.exports = {
 	},
 	output: {
 		filename: DEV ? settings.name + '.js' : settings.name + '.min.js',
-		library: settings.lib,
+		library: settings.name,
 		libraryTarget: settings.target,
 		path: DEV ? path.join(__dirname, 'dev') : path.join(__dirname, 'dist', settings.target)
 	}
