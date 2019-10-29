@@ -10,6 +10,15 @@ Random Names can be used as placeholder names or actual names for content.
 The data creates interesting names by simply smooshing random nouns and adjectives together.
 Any offensive or inapropriate combinations are not intentional and may be removed.
 
+## Usage
+
+```js
+const randi = require('randi');
+const randomTitle = randi('-');
+
+// ex: a-random-title
+```
+
 ## Shout outs
 
 To the creator of this Gist were most of the data is from
