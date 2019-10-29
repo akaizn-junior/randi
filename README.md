@@ -21,7 +21,7 @@ Any offensive or inapropriate combinations are not intentional and may be remove
 ```js
 <script src="randi.min.js"></script>
 <script>
-    const randomName = Randi('_');
+    const randomName = randi('_');
     // ex: a_random_name
 </script>
 ```
