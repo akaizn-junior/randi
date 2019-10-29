@@ -1,0 +1,8 @@
+{
+  "name": "randi",
+  "version": "0.0.1",
+  "description": "Random Names Generator",
+  "main": "randi.js",
+  "author": "Simao Nziaka",
+  "license": "ISC"
+}
