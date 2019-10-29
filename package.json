@@ -1,6 +1,6 @@
 {
 	"name": "@verdebydesign/randi",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"description": "Random Names Generator",
 	"main": "src/randi.js",
 	"author": "Simao Nziaka",
