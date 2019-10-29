@@ -4,8 +4,8 @@
  * (c) 2019 Verdexdesign
  */
 
-const randn = require('./randn');
-const { nouns, adjectives } = require('./data');
+const randn = require('./randn.js');
+const { nouns, adjectives } = require('./data.js');
 
 /**
  * Generates a name from random adjectives and nouns
