@@ -26,13 +26,20 @@ Any offensive or inapropriate combinations are not intentional and may be remove
 </script>
 ```
 
-### Node
+### CommonJS
 
 ```js
 const randi = require('randi');
 const randomTitle = randi('-');
 
 // ex: a-random-title
+```
+
+### CLI
+
+```shell
+randi --sep '-'
+# ex: title-random
 ```
 
 ## Shout outs
