@@ -42,6 +42,24 @@ randi --sep '-'
 # ex: title-random
 ```
 
+## CLI Options
+
+### Synopsis
+
+randi [-h] [-s=separator]
+
+### Quick use
+
+```shell
+randi
+# ex: random name
+```
+
+|Options||
+|--|--|
+| -s, --sep| Provide a separator for the generated string other than space|
+| -h, --help| Show help |
+
 ## Shout outs
 
 To the creator of this Gist were most of the data is from
