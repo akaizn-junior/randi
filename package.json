@@ -10,6 +10,9 @@
 		"watch": "export NODE_ENV=development; webpack --watch --progress",
 		"start": "export NODE_ENV=production; webpack --progress"
 	},
+	"bin": {
+		"randi": "src/cli.js"
+	},
 	"nyc": {
 		"check-coverage": true,
 		"per-file": false,
@@ -49,5 +52,7 @@
 		"webpack": "^4.41.2",
 		"webpack-cli": "^3.3.9"
 	},
-	"dependencies": {}
+	"dependencies": {
+		"@verdebydesign/car": "git+https://github.com/verdebydesign/car.git"
+	}
 }
