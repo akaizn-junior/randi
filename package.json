@@ -47,7 +47,7 @@
 	"homepage": "https://github.com/verdebydesign/randi#readme",
 	"devDependencies": {
 		"chai": "^4.2.0",
-		"mocha": "^6.2.2",
+		"mocha": "^10.2.0",
 		"nyc": "^14.1.1",
 		"webpack": "^4.41.2",
 		"webpack-cli": "^3.3.9"
